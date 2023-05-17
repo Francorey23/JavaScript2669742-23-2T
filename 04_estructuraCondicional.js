@@ -112,7 +112,7 @@ switch (dado === true) {
 
 
 
-    
+
 // numero aleatorio
 /* let dado = Math.floor(Math.random() * 6 + 1);
 alert(dado)
@@ -164,14 +164,15 @@ switch (jugar==true) {
 
 //Eje 6. switch case
 
-let dado = Math.floor(Math.random() * 6 + 1);
+/* let dado = Math.floor(Math.random() * 6 + 1);
 
 document.write("Tira los dados!! <br> ");
 
 //declaro una variable True para ingresar al switch
 
-
-switch (dado<0) {
+let key = true
+//key en esta linea tiene un valor asignado de True key es verdadero
+switch (key) {
         //Evaluando el valor que adquirio dado
     case dado < 0:
         document.write("No es un numero del dado ");
@@ -186,4 +187,52 @@ switch (dado<0) {
     default:
         document.write("Numero no valdio: "+dado);
         break;
+} */
+
+let pago = parseInt(prompt("Digite la opcion de pago \n 1=Targeta Debito \n 2=Targeta Credito \n 3=Efectivo \n 4=Nequi \n 5=Daviplata"));
+let banco;
+
+//segun la opcion de pago
+if (pago >0 && pago <=5  ) {
+switch (pago) {
+    case 1: {
+        let banco = parseInt(prompt("Digite la opcion del banco \n 1=Banco de Bogota \n 2=BancoAgrario \n 3=Caja Social \n 4=Davivienda \n 5=Otros"));
+        switch (banco) {
+            case 1:
+                alert("1. Banco de Bogota");        
+                break;
+            case 2:
+                alert("1. Banco Agrario");        
+                break;
+        
+            default:
+                alert("Opcion incorrecta!!");        
+                break;
+        }
+        break;
+    }
+
+    case 2: {
+        alert("Escojiste Targeta Credito Seleccione el Banco");
+        break;
+    }
+
+    case 3: {
+        alert("Escojiste Efectivo Seleccione el Banco");
+        break;
+    }
+    case 4: {
+        alert("Escojiste Nequi");
+        break;
+
+    }
+
+    default:
+        alert("Escojiste Daviplata")
+        break;
 }
+
+}
+ else{
+    alert("digite un opcion dada")
+} 

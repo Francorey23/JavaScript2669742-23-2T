@@ -9,25 +9,26 @@ while (i<numMaximo) {
     
 } */
 
-//let a=['arbol','hoja']
-//con el ciclo for
+//Ejercicio . utilizando el ciclo for
 /* for (let index = 0; index <= 20; index+=2) {
     document.write(index+",");
     
 } */
 //Ejercicio 4. Realizar un programa que permita ingresar el tipo de mascota(perro o gato y realizar 
 //el contenteo de gatos y perros y la sumatoria de c/u)
-
-/* let contadorPerros = 0
+/*
+let contadorPerros = 0
 let contadorGatos = 0
 let sumatoriaEdadPerros =0
 let sumatoriaEdadGatos = 0
-let promedioPerros = 0
-let promedioGatos = 0
-for (let i = 0; i < 4; i++) {
 
-    let mascotas = prompt("ingrese tipo de mascota:")
-    if (mascotas === "perro") {
+//for (let i = 0; i < 4; i++) {
+    
+ while (true) {
+    let mascotas = prompt("ingrese tipo de mascota: (perro o gato) ó 0 para terminar")
+    if (mascotas==="0") {
+        break;
+    }else if (mascotas === "perro") {
         let edad = parseInt(prompt("ingrese edad: "))
 
         contadorPerros = contadorPerros + 1
@@ -43,17 +44,17 @@ document.write("Numero de perros es:", contadorPerros +"<br>")
 document.write("La sumatoria de las edades es:", sumatoriaEdadPerros+"<br>")
 document.write("Numero de gatos es:", contadorGatos +"<br>")
 document.write("La sumatoria de las edades es:", sumatoriaEdadGatos)
- */
+  */
 
 // Ejercicio 5. Indicar si un numero digitado es primo
-/* let numPrimo = parseInt(prompt("Digite el numero: "));
+let numPrimo = parseInt(prompt("Digite el numero: "));
 
 let esPrimo = true
 
 if (numPrimo<=1) {
     esPrimo = false
     
-}
+}document.write("El numero es primo"+primo+"<br>")
 if (numPrimo%2==0) {
  esPrimo = false   
 }
@@ -62,7 +63,7 @@ if (esPrimo==true) {
     document.write("El numero es primo: "+numPrimo)
 }else{
     document.write("El numero NO es primo: "+numPrimo)
-} */
+} 
 
 //Ejercicio 6. Hallar el factorial de un numero
 
@@ -207,7 +208,7 @@ document.write(i,"<br>");
 document.write(sumarNumero);
  */
 
-let competencia = "";
+/* let competencia = "";
 let calificacion = 0;
 let contarAlgoritmia = 0;
 let contarIngles = 0;
@@ -237,4 +238,4 @@ while (competencia !="x") {
 console.log(contarAlgoritmia,"<br>");
 console.log(`Los aprendices aprobados en algoritmia son ${contarAlgoritmia}<br>`);
 
-console.log(contarIngles);
+console.log(contarIngles); */

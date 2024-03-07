@@ -5,12 +5,12 @@ Material de JS en Linea
 https://javascript.info/
 
 */
-
 let color; //declaración
 color = "Negro"; //asignación de tipo string
+alert(color);
 let color2 = "verde"; //declaración asignación
 let precio = 1500; //puede ser numero o flotante 150.5
-alert(color2);
+alert(color);
 
 let sumaNumero //notación utilizando camel case
 //no permite utilizar
@@ -74,9 +74,11 @@ let colores = ['rojo', 'verde', 'azul'];
 let nombres;
 //NOMBRE = "Maria Fernanda"; // No corresponde a la verdadera variable declarada 'nombre'
 nombres = "Maria Fernanda"; // Aqui esta bien
+apellidos = "Perez Paz"
 
 //write imprime en pantalla
-document.write("Tu nombre es: " + nombres + "<br>"); //para concatenar utilizo +
+document.write("Nombres: " + nombres + "<br>");
+document.write("Tu nombre completo es: " + nombres +" "+ apellidos + "<br>"); //para concatenar utilizo +
 //ventana emergente
 //alert("Tu nombre es: <br> " + nombres + "<br>");
 

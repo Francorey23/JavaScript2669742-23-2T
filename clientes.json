@@ -1,0 +1,12 @@
+{
+    "customerId": "1234567890abcdef",
+    "loanId": "abcdef1234567890loan",
+    "movieId": "abcdef1234567890",
+    "title": "The Great Adventure",
+    "dueDate": "2024-03-15",
+    "returnDate": "2024-03-20",
+    "daysLate": 5,
+    "fineAmount": 25.00,
+    "status": "Unpaid"
+  }
+  

@@ -49,7 +49,7 @@
         //salarioFinal = salarioFinal+salarioFinal*(incremento/100);
         console.log("Año: ", i, ":",salarioFinal);
     // }
+    }
   }
-
   let salarioEmpleado = calcularSalario(salarioIncial,anio,incremento);
 

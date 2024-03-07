@@ -4,7 +4,6 @@ Segunda linea comentario */
 
 //Declaración de variables y asignacion
 
-
 let nombres1, apellidos, direccion;
 let nombres = "Ana Patricia";
 let numero = 450;
